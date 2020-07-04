@@ -51,9 +51,9 @@ public class Main {
         System.out.println("\t 5 - To quit the application.");
     }
 
-    public static void addItem(){
-        System.out.println("Enter the grocery item: ");
-        groceryList.addItem(scanner.nextLine());
+    public static void addItem() {
+            System.out.println("Enter the grocery item: ");
+            groceryList.addItem(scanner.nextLine());
     }
 
     public static void removeItem(){
